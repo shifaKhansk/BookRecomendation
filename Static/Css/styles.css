@@ -1,0 +1,87 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px;
+    border-radius: 0px;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 1.1em;
+    padding: 10px 15px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #FFB84D;
+    border-radius: 5px;
+}
+
+/* Form */
+#recommendation-form .form-control {
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #FFB84D;
+    color: #333333;
+}
+
+/* Recommendations */
+#recommendations {
+    display: none;
+}
+
+#recommendation-list .list-group-item {
+    background-color: #fff;
+    border-color: #4A90E2;
+    color: #333333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        background-color: #F5F5F5;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    #recommendation-form .form-control {
+        font-size: 1em;
+    }
+
+    button {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .navbar-nav .nav-link {
+        font-size: 1em;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #4A90E2;
+    color: white;
+}
